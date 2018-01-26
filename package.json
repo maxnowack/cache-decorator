@@ -4,6 +4,8 @@
   "description": "javascript method/function cache decorator.",
   "main": "dist/index.js",
   "scripts": {
+    "build": "gulp",
+    "prepare": "npm run build",
     "release": "gulp release",
     "minify": "gulp",
     "ut": "gulp test-chrome",
@@ -19,6 +21,9 @@
     "dom",
     "react",
     "fuel"
+  ],
+  "files": [
+    "dist/*"
   ],
   "author": "brn",
   "license": "MIT",
