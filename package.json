@@ -22,6 +22,9 @@
     "react",
     "fuel"
   ],
+  "files": [
+    "dist/*"
+  ],
   "author": "brn",
   "license": "MIT",
   "bugs": {
